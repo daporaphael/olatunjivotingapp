@@ -2,15 +2,19 @@
 #Prerequisites (Local)
 If you want to run this pattern locally, without any Cloud services, then all you need is VSCode and the IBM Blockchain Platform extension.
 
-Install VSCode version 1.39
-Install IBM Blockchain Platform Extension for VSCode
-Node v8.9.0
-npm v6.11.3
+Install VSCode version 1.39,
+
+Install IBM Blockchain Platform Extension for VSCode,
+
+please install Node v8.9.0,
+
+npm v6.11.3,
+
 Note: you will need Node 8.x to run this pattern
+please install nvm in your windows laptop ,in order to install specific verison of node on your system
 
 For example, to install and run Node 8.9.0:
 
-  brew install nvm
   nvm install 8.9.0
   nvm use 8.9.0
 
