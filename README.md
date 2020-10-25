@@ -21,11 +21,11 @@ this is how the extension builds a development Hyperledger Fabric network with a
 
 Git clone this repo onto your computer in the destination of your choice, then go into the web-app folder:
 ```
-HoreaPorutiu$ git clone https://github.com/IBM/evote
+https://github.com/daporaphael/olatunjivotingapp        to do this you must have git installed.
 ```
 
 ## Step 2. Start the Fabric Runtime
-![startRuntime](https://user-images.githubusercontent.com/10428517/76370968-dea3ae80-62f5-11ea-8793-d04610e8bf30.gif)
+![startRuntime]
 
 - If you get errors like the gRPC error, you may need to download an earlier version of VSCode (1.39) (here)[https://code.visualstudio.com/updates/v1_39]. Note that if you are using Mac, make sure the VSCode in your ~/Applications
 folder shows version 1.39 when you click on show details. You may need to 
@@ -40,7 +40,7 @@ version to work.
 
 ## Step 3. Import Install and Instantiate Contract
 🚨🚨🚨Note that the gif shows the process for importing a contract, but uses a different smart contract. The process is the same, so use the gifs for help, but know that we are using the voterContract.🚨🚨🚨
-![importContract](https://user-images.githubusercontent.com/10428517/76371236-e0ba3d00-62f6-11ea-82a1-bfa4798985b9.gif)
+![importContract]
 - Next, we have to import our contract before we can install it. Click on 
 **View -> Command Palette... -> >IBM Blockchain Platform: Import a Package**. Next, click 
 on Browse and then select the `voterContract@7.0.0.cds` file that is in the `evote/contract` folder. 
@@ -57,8 +57,7 @@ on our network. Click on *+ Instantiate* and then choose *voterContract@7.0.0.cd
 is finished instantiating.
 
 ## Step 4. Export Connection Details
-![export](https://user-images.githubusercontent.com/10428517/76371002-fd09aa00-62f5-11ea-9f6b-cc25e68c410e.gif)
-
+![export]
 - Click on `1 Org Local Fabric- Org1` in the **FABRIC GATEWAYS** pane and then select `admin`. **This will choose the `admin` identity to connect with the gateway.**
 
 - Right click on the 3 dot menu on the **FABRIC GATEWAYS** pane and `Export Connection Profile`. Save this file to <git_tree>/evote/web-app/server/fabric_connection.json. **Note that this gif is here to show you the VSCode interface, it saves the files somewhere else.**
@@ -66,15 +65,14 @@ is finished instantiating.
 
 ## Step 5. Export Local Wallet
 
-![wallet](https://user-images.githubusercontent.com/10428517/76375176-65f71f00-6302-11ea-8071-d68192905a91.gif)
+![wallet]
 
 - 🚨Under the `FABRIC WALLETS` pane, right click on `1 Org Local Fabric - Org1`. Note this is very important, if you click on the Orderer wallet at the top, 
 the application will not work! 🚨
 - Export Wallet and save it as `wallet` to 
 <git_tree>/evote/web-app/server/wallet.
 - Your final directory structure should look like the image below:
-![dirStruct](https://user-images.githubusercontent.com/10428517/76990922-fbe40880-6905-11ea-8695-d0f7f6dbbd3b.png)
-
+![dirStruct]
 #### Update Config
 
 Next, update the `config.json` file so it looks like this:
