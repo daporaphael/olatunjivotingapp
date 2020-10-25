@@ -107,8 +107,8 @@ To run the app, we will need to install dependencies for both our front-end and 
     ```
   - If all goes well, you should see the following in your terminal:
     ```
-      > server@1.0.0 start /Users/Horea.Porutiu@ibm.com/Workdir/testDir/July7/evote/web-app/server
-      > ./node_modules/nodemon/bin/nodemon.js src/app.js
+     > server@1.0.0 start /home/olatunji/olatunjivotingapp/web-app/server
+    > ./node_modules/nodemon/bin/nodemon.js src/app.js
 
       [nodemon] 1.19.1
       [nodemon] to restart at any time, enter `rs`
@@ -120,7 +120,7 @@ To run the app, we will need to install dependencies for both our front-end and 
 
 - First, navigate to the `client` directory, and install the node dependencies.
   ```bash
-  cd evote/web-app/client
+  cd olatunjivotingapp/web-app/client/
   npm install
   ```
 - Then, start the client: 
