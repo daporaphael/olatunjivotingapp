@@ -18,6 +18,9 @@ Windows: Docker Desktop 2.0+ on Windows 10 Pro/Enterprise. Windows 10 Home (2004
 macOS: Docker Desktop 2.0+.
 Linux: Docker CE/EE 18.06+ and Docker Compose 1.21+. (The Ubuntu snap package is not supported.)
 
+Open the vscode,and click on the extension tab or type CTRL + SHIFT + X ,This will take you to the market place,type in ibm blockchain chain platform ,Wclick on the platform and wait for the installation(in the video,i have installed the platform already).
+click on the square shaped icon ,this is the symbol for the ibm blockchain platform .For Windows laptop users, you must download vscode version 1.39,this is because versions higher than 1.39 cannot activate the ibm blockchain platform but this problem is not seen among linux laptop users(i am using a linux laptop).As a workaround for this problem pls visit the forum for solution  https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/1205
+
 # Create a fair evoting application to ensure correct election results with Hyperledger Fabric and IBM Blockchain Platform (Local)
 
 # Steps (Local Deployment)
