@@ -6,7 +6,7 @@ Install VSCode version 1.39
 Install IBM Blockchain Platform Extension for VSCode
 Node v8.9.0
 npm v6.11.3
-constructionconstructionNote: you will need Node 8.x to run this pattern!constructionconstruction
+Note: you will need Node 8.x to run this pattern
 
 For example, to install and run Node 8.9.0:
 
@@ -14,7 +14,9 @@ For example, to install and run Node 8.9.0:
   nvm install 8.9.0
   nvm use 8.9.0
 
-
+Windows: Docker Desktop 2.0+ on Windows 10 Pro/Enterprise. Windows 10 Home (2004+) requires Docker Desktop 2.3+ and the WSL 2 back-end. (Docker Toolbox is not supported. Windows container images are not supported.)
+macOS: Docker Desktop 2.0+.
+Linux: Docker CE/EE 18.06+ and Docker Compose 1.21+. (The Ubuntu snap package is not supported.)
 
 # Create a fair evoting application to ensure correct election results with Hyperledger Fabric and IBM Blockchain Platform (Local)
 
