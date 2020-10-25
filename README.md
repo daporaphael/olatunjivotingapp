@@ -1,4 +1,20 @@
 # olatunjivotingapp
+#Prerequisites (Local)
+If you want to run this pattern locally, without any Cloud services, then all you need is VSCode and the IBM Blockchain Platform extension.
+
+Install VSCode version 1.39
+Install IBM Blockchain Platform Extension for VSCode
+Node v8.9.0
+npm v6.11.3
+constructionconstructionNote: you will need Node 8.x to run this pattern!constructionconstruction
+
+For example, to install and run Node 8.9.0:
+
+  brew install nvm
+  nvm install 8.9.0
+  nvm use 8.9.0
+
+
 
 # Create a fair evoting application to ensure correct election results with Hyperledger Fabric and IBM Blockchain Platform (Local)
 
