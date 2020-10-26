@@ -1,5 +1,5 @@
-# olatunjivotingapp
-#Prerequisites (Local)
+# olatunjivotingapp pls watch the video at 
+#Prerequisites (Local)https://www.youtube.com/watch?v=HBhDsyqLfzo
 If you want to run this pattern locally, without any Cloud services, then all you need is VSCode and the IBM Blockchain Platform extension.
 
 Install VSCode version 1.39,
