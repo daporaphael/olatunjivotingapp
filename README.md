@@ -1,4 +1,4 @@
-# olatunjivotingapp pls watch the video at https://www.youtube.com/watch?v=HBhDsyqLfzo
+# olatunjivotingapp Please watch the video at https://www.youtube.com/watch?v=HBhDsyqLfzo
 
 #Prerequisites (Local)
 
@@ -71,7 +71,7 @@ version to work.
 ![importContract]
 - Next, we have to import our contract before we can install it. Click on 
 **View -> Command Palette... -> >IBM Blockchain Platform: Import a Package**. Next, click 
-on Browse and then select the `voterContract@7.0.0.cds` file that is in the `evote/contract` folder. 
+ on Browse and then select the `voterContract@7.0.0.cds` file that is in the ` olatunjivotingapp/contract folder. 
 
 - Under **FABRIC ENVIRONMENTS** let's click on *+ Install* and choose the peer that is available. Then the extension will ask you which package to 
  install. Choose *voterContract@7.0.0.cds*.
