@@ -46,7 +46,7 @@ have the correct [system requirements](https://marketplace.visualstudio.com/item
 this is how the extension builds a development Hyperledger Fabric network with a click of a button.
 
 ## Step 1. Clone the Repo
-
+PLEASE USE A STRONG INTERNET CONNECTION ,FOR THE VSCODE TO WORK EFFECTIVELY
 Git clone this repo onto your computer in the destination of your choice, then go into the web-app folder:
 ```
 https://github.com/daporaphael/olatunjivotingapp        to do this you must have git installed.
