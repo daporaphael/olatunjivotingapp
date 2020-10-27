@@ -88,7 +88,7 @@ is finished instantiating.
 ![export]
 - Click on `1 Org Local Fabric- Org1` in the **FABRIC GATEWAYS** pane and then select `admin`. **This will choose the `admin` identity to connect with the gateway.**
 
-- Right click on the 3 dot menu on the **FABRIC GATEWAYS** pane and `Export Connection Profile`. Save this file to <git_tree>/evote/web-app/server/fabric_connection.json. **Note that this gif is here to show you the VSCode interface, it saves the files somewhere else.**
+- Right click on the 3 dot menu on the **FABRIC GATEWAYS** pane and `Export Connection Profile`. Save this file to  olatunjivotingapp/web-app/server/fabric_connection.json. **Note that this gif is here to show you the VSCode interface, it saves the files somewhere else.**
 
 
 ## Step 5. Export Local Wallet
@@ -98,7 +98,7 @@ is finished instantiating.
 - 🚨Under the `FABRIC WALLETS` pane, right click on `1 Org Local Fabric - Org1`. Note this is very important, if you click on the Orderer wallet at the top, 
 the application will not work! 🚨
 - Export Wallet and save it as `wallet` to 
-<git_tree>/evote/web-app/server/wallet.
+olatunjivotingapp/web-app/server/wallet.
 - Your final directory structure should look like the image below:
 ![dirStruct]
 #### Update Config
