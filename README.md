@@ -67,8 +67,7 @@ version to work.
 - Once the runtime is finished starting (this might take a couple of minutes), under *Local Fabric* you should see *Smart Contracts* and a section for both *installed* and *instantiated*.
 
 ## Step 3. Import Install and Instantiate Contract
-🚨🚨🚨Note that the gif shows the process for importing a contract, but uses a different smart contract. The process is the same, so use the gifs for help, but know that we are using the voterContract.🚨🚨🚨
-![importContract]
+🚨🚨🚨]
 - Next, we have to import our contract before we can install it. Click on 
 **View -> Command Palette... -> >IBM Blockchain Platform: Import a Package**. Next, click 
  on Browse and then select the `voterContract@7.0.0.cds` file that is in the ` olatunjivotingapp/contract folder. 
