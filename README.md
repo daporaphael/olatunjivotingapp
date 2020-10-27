@@ -172,11 +172,7 @@ To run the app, we will need to install dependencies for both our front-end and 
 
  Go ahead and register a voter, login with your VoterId, and submit a vote. Have fun! :) 
 
- <br>
-<p align="center">
-  <img src="./doc-gifs/demo.gif">
-</p>
-<br>
+ 
 
 
 
