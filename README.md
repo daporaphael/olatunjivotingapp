@@ -178,6 +178,18 @@ To run the app, we will need to install dependencies for both our front-end and 
 
  Go ahead and register a voter, login with your VoterId, and submit a vote. Have fun! :) 
 
+
+# COMMON ERRORS AND HEIR SOLUTIONS
+
+The truth and the reality is that you cant do without errors when it comes to coding,but the GOOD NEWS is that there is always a workaround to those errors.
+(1) Internal watch failed: watch /home/olatunji/olatunjicontract/web-app/server ENOSPC
+the above error occur because max ports were not configured correctly,to solve this on an Ubuntu laptop because I am using an Ubuntu Laptop,RUN THIS CODE
+
+
+
+echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+(2)
  
 
 
