@@ -195,10 +195,9 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
  Please update the config.json file ,there is a mismatch in the file and the vscode connection profile that you exported earlier.
 ibpConnection.json is the connection profile  for ibm cloud users but for vscode users ,the connection profile is 
 fabric_connection.json
+update the `config.json` file so it looks like this:
 
- update the `config.json` file so it looks like this:
-
-
+```json
 {
   "connection_file": "fabric_connection.json",
   "appAdmin": "admin",
@@ -208,10 +207,16 @@ fabric_connection.json
   "userName": "V1",
   "gatewayDiscovery": { "enabled": true, "asLocalhost": true }
 }
+```
+ 
 
 
 
-(3) 
+(3) ror: listen EADDRINUSE :::8081
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+
  
 
 
